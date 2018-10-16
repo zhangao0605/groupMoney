@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.lovelytao.com/h5/fx/agent -->
+<html style="font-size: 106.667px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>数字生活管家</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="grey">
+    <link rel="stylesheet" href="../css/h5_reset.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/extension.css" type="text/css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/extension.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2d6c5bfc1294772b1ffe441d090de723";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+<body>
+<script type="text/javascript">
+    window.mobileUtil = (function (win, doc) {
+        var UA = navigator.userAgent,
+            isAndroid = /android|adr/gi.test(UA),
+            isIOS = /iphone|ipod|ipad/gi.test(UA) && !isAndroid,
+            isBlackBerry = /BlackBerry/i.test(UA),
+            isWindowPhone = /IEMobile/i.test(UA),
+            isMobile = isAndroid || isIOS || isBlackBerry || isWindowPhone;
+        return {
+            isAndroid: isAndroid,
+            isIOS: isIOS,
+            isMobile: isMobile,
+            isWeixin: /MicroMessenger/gi.test(UA)
+        };
+    })(window, document);
+
+    !(function (doc, win) {
+        var docEl = doc.documentElement, resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            fsize,
+            fn = function () {
+                var cWidth = !mobileUtil.isMobile ? 750 : docEl.clientWidth;
+                fsize = cWidth / 7.5;
+                cWidth && (docEl.style.fontSize = 2 * fsize + 'px');
+            };
+        fn();
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, fn, false);
+    })(document, window);
+</script>
+<div id="nav" class="nav">
+    <ul class="row">
+        <li class="c4">
+            <a href="#" id="navFirst">
+                <div>
+                    <img class="home-icon" src="../images/index.png" alt="">
+                </div>
+                <span  >概况</span>
+            </a>
+        </li>
+
+        <li class="c4">
+            <a href="#" id="navSecond">
+                <div>
+                    <img class="agent-icon" src="../images/extension-on.png" alt="">
+                </div>
+                <span style="color:#4787c5 ">推广</span>
+            </a>
+        </li>
+
+        <li class="c4">
+            <a href="#" id="navSree">
+                <div>
+                    <img class="order-icon" src="../images/income.png" alt="">
+                </div>
+                <span>收入</span>
+            </a>
+        </li>
+
+        <li class="c4" id="navFour">
+            <a href="#">
+                <div>
+                    <img class="fee-icon" src="../images/about.png" alt="">
+                </div>
+                <span>帮助</span>
+            </a>
+        </li>
+
+    </ul>
+</div>
+
+<a href="#toTop1" id="toTop">
+</a>
+<div id="app" class="container">
+    <div class="wrapper">
+        <a name="toTop1" id="toTop1"></a>
+        <div class="table-click">
+        <ul>
+            <li style="color:#4787c5 " data="901">高佣</li>
+            <li data="902">热销</li>
+            <li data="903">9.9专区</li>
+            <li data="904">19.9专区</li>
+        </ul>
+        </div>
+        <div class="gogo"></div>
+        <div class="shopList">
+            <!--<div class="conList">-->
+                <!--<div class="gogo" value="">-->
+                    <!--<img class="conImg" src="">-->
+                    <!--<div class="conFirstLine">-->
+                        <!--<span class="conTitleSpan"></span>-->
+                    <!--</div>-->
+                    <!--<div class="conSecondLine">-->
+                        <!--<div class="secondLineFirst">-->
+                            <!--现&#12288;价：￥<span id="secondLineFirst"></span>-->
+                        <!--</div>-->
+                        <!--<div class=\"secondLineSecond\">-->
+                            <!--销量：<span></span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="conFourLine">-->
+                        <!--<div class="secondLineFirst">-->
+                            <!--劵后价：￥<span></span>-->
+                        <!--</div>-->
+                        <!--<div class=\"getMoney\">-->
+                            <!--&nbsp;赚￥ <span></span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+
+    <img class="load" src="../images/preloader.gif" alt=""
+         style="display: none;width: 40px;height: 40px;position:absolute;z-index: 999;top: 83%;left: 50%;margin-left: -20px">
+</div>
+</body>
+</html>

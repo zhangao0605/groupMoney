@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="42862b09-0c9c-4725-b3ec-ad6930dff31a" name="tbk2" url="http://47.92.71.18">
+        <fileTransfer host="47.92.71.18" port="22" rootFolder="/usr/local/nginx/index/test" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

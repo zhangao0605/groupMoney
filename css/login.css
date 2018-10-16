@@ -1,0 +1,201 @@
+[v-cloak] {
+    display: none
+}
+
+html, body {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font: normal normal 12px/1 Arial, sans-serif, "Microsoft YaHei", "微软雅黑"
+}
+
+.All {
+    width: 100%;
+    height: 100%;
+    background: url("../images/login.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.logOne {
+    background-color: #8696A6;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    height: 40px;
+    width: 76%;
+    margin-left: 12%;
+    opacity: 0.4;
+}
+
+.logOneOne {
+    color: #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    height: 40px;
+    width: 76%;
+    margin-left: 12%;
+    display: flex;
+    opacity: 1;
+    line-height: 40px;
+}
+
+.title {
+    margin-top: 5px;
+    height: 30px;
+    border-right: 1px solid #FFFFFF;
+    text-align: center;
+    width: 25%;
+    /*background-color: red;*/
+    line-height: 40px;
+}
+
+.title img {
+    line-height: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.logInput {
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 10px;
+    /*border: 1px solid red;*/
+    width: 60%;
+    height: 30px;
+    color: #FFFFFF;
+    padding-left: 4%;
+}
+
+.clean {
+    position: relative;
+    right: -2px;
+    top: 7px;
+
+}
+
+.logOne1 {
+    background-color: #8696A6;
+    border-radius: 15px;
+    position: absolute;
+    top: 45%;
+    height: 40px;
+    width: 76%;
+    margin-left: 12%;
+    opacity: 0.4;
+}
+
+.logOneOne1 {
+    color: #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    top: 45%;
+    height: 40px;
+    width: 76%;
+    margin-left: 12%;
+    display: flex;
+    opacity: 1;
+    line-height: 40px;
+}
+
+.title1 {
+    margin-top: 5px;
+    height: 30px;
+    border-right: 1px solid #FFFFFF;
+    text-align: center;
+    width: 25%;
+    /*background-color: red;*/
+    line-height: 40px;
+}
+
+.title1 img {
+    line-height: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.logInput1 {
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 10px;
+    /*border: 1px solid red;*/
+    width: 60%;
+    height: 30px;
+    color: #FFFFFF;
+    /*padding-left: 4%;*/
+}
+
+.clean1 {
+    position: relative;
+    right: -2px;
+    top: 7px;
+
+}
+.list{
+    font-weight: 500;
+    color: #D5E8F2;
+    font-size: 12px;
+    border-radius: 15px;
+    position: absolute;
+    top: 45%;
+    height: 40px;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    opacity: 1;
+    line-height: 20px;
+    margin-top: 20%;
+}
+.trueLoge{
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 23%;
+    height: 35px;
+    background-color:#42C5BD ;
+    width: 76%;
+    margin-left: 12%;
+    display: flex;
+    opacity: 1;
+    line-height:35px;
+}
+.textTrue{
+    width: 100%;
+    text-align: center;
+}
+.register{
+    border-radius: 15px;
+    width: 76%;
+    position: absolute;
+    bottom: 12%;
+    margin-left: 12%;
+    color: #FFFFFF;
+    height: 30px;
+    background-color:#42C5BD ;
+    line-height: 30px;
+    text-align: center;
+}
+.tiShi{
+    display: none;
+    font-weight: 500;
+    color: red;
+    font-size: 12px;
+    /*border-radius: 15px;*/
+    position: absolute;
+    top: 45%;
+    height: 40px;
+    width: 70%;
+    margin-left: 15%;
+    /*display: flex;*/
+    /*opacity: 1;*/
+    line-height: 20px;
+    margin-top: 36%;
+}

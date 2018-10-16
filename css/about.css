@@ -1,0 +1,171 @@
+[v-cloak] {
+    display: none
+}
+
+html, body {
+    width: 100%;
+    height: 90%
+}
+
+body {
+    font: normal normal 12px/1 Arial, sans-serif, "Microsoft YaHei", "微软雅黑";
+background-color: #ebeced;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 100%;
+    /*height: 88%;*/
+    margin: 6% 5% 4% 5%;
+    box-shadow: 0 1px 0px 0px rgba(208, 209, 213, 0.5), 0 0px 0px 1px rgba(220, 221, 224, 0.4);
+    -webkit-box-shadow: 0 1px 0px 0px rgba(208, 209, 213, 0.5), 0 0px 0px 1px rgba(220, 221, 224, 0.4);
+}
+.container>div::-webkit-scrollbar {
+    display: none;
+}
+
+.container > div {
+    -webkit-overflow-scrolling: touch
+}
+
+.row {
+    width: 100%
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden
+}
+
+.row .c3 {
+    float: left;
+    width: 33.33%
+}
+
+.row .c2 {
+    float: left;
+    width: 50%
+}
+
+.row .c4 {
+    float: left;
+    width: 25%
+}
+
+/*.header {*/
+    /*color: #FFFFFF;*/
+    /*background-color:#5BCAC4 ;*/
+    /*position: relative;*/
+    /*height: 40px;*/
+    /*padding: 0 15px;*/
+    /*line-height: 40px;*/
+    /*text-align: center;*/
+    /*font-size: 17px*/
+/*}*/
+
+
+/*.header .return {*/
+    /*position: absolute;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*left: 0;*/
+    /*z-index: 10;*/
+    /*background: url(http://oss1.lanlanlife.com/3c4676cca09f97f1f9476b90c77af07a_42x26.png) no-repeat;*/
+    /*background-size: 13px 21px;*/
+    /*background-position: center*/
+/*}*/
+
+
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFF;
+    border-top: 1px solid #E1E1E1
+}
+
+.nav ul:after {
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden
+}
+
+.nav li {
+    float: left;
+    font-size: 10px;
+    text-align: center
+}
+
+.nav a {
+    display: block;
+    color:#4A4E51
+}
+
+.nav .c4 a > div, .nav .c3 a > div {
+    height: 15px
+}
+
+.home-icon {
+    width: 19px;
+    height: 21px
+}
+
+.agent-icon {
+    width: 21px;
+    height: 21px
+}
+
+.order-icon {
+    width: 19px;
+    height: 20px
+}
+
+.fee-icon {
+    width: 22px;
+    height: 23px
+}
+.backImg{
+    margin-top: 10px;
+    width: 100%;
+    height: 130%;
+    background: url("../images/aboutMe.png");
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}
+.help {
+    color:#4A4E51 ;
+    font-size:14px;
+    padding: 10px 10px 10px 10px;
+    line-height:25px;
+}
+.help {
+    color:#4A4E51 ;
+    font-size:14px;
+    padding: 10px 10px 10px 10px;
+    line-height:25px;
+}
+.helpOne{
+    width: 100%;
+    display: flex;
+    word-wrap:break-word;
+}
+.helpOne img{
+
+    width: 48%;
+    height: 50%;
+}
+.helpOne img:nth-of-type(2){
+    margin-left: 4%;
+}
+.havTh{
+    margin-top: 10px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://www.lovelytao.com/h5/fx/fee/applyList -->
+<html style="font-size: 106.667px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>数字生活管家</title>
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="grey">
+    <link rel="stylesheet" href="../css/h5_reset.min.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="../css/history.css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/history.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2d6c5bfc1294772b1ffe441d090de723";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+<body>
+<script type="text/javascript">
+    window.mobileUtil = (function (win, doc) {
+        var UA = navigator.userAgent,
+            isAndroid = /android|adr/gi.test(UA),
+            isIOS = /iphone|ipod|ipad/gi.test(UA) && !isAndroid,
+            isBlackBerry = /BlackBerry/i.test(UA),
+            isWindowPhone = /IEMobile/i.test(UA),
+            isMobile = isAndroid || isIOS || isBlackBerry || isWindowPhone;
+        return {
+            isAndroid: isAndroid,
+            isIOS: isIOS,
+            isMobile: isMobile,
+            isWeixin: /MicroMessenger/gi.test(UA)
+        };
+    })(window, document);
+
+    !(function (doc, win) {
+        var docEl = doc.documentElement, resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            fsize,
+            fn = function () {
+                var cWidth = !mobileUtil.isMobile ? 750 : docEl.clientWidth;
+                fsize = cWidth / 7.5;
+                cWidth && (docEl.style.fontSize = 2 * fsize + 'px');
+            };
+        fn();
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, fn, false);
+    })(document, window);
+</script>
+<div id="app" class="container">
+    <div style="width: 100%; height: 100%; overflow: auto;">
+        <!--<div class="header"><a href="income.html" class="return"><img src="../images/return.png"></a> <span>提现金额</span></div>-->
+        <div class="fee-lists">
+            <table>
+                <thead>
+                <tr>
+                    <th>提现时间</th>
+                    <th>提现金额</th>
+                    <th>支付宝信息</th>
+                    <th>状态</th>
+                </tr>
+                </thead>
+                <tbody class="htmlNum">
+
+                <!--<tr class="trWidth">-->
+                    <!--<th>提现时间</th>-->
+                    <!--<th>提现金额</th>-->
+                    <!--<th>支付宝信息</th>-->
+                    <!--<th>成功</th>-->
+                <!--</tr>-->
+                </tbody>
+            </table>
+        </div>
+        <div class="nullPress">
+            无提现记录
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

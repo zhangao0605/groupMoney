@@ -1,0 +1,275 @@
+[v-cloak] {
+    display: none
+}
+
+html, body {
+    width: 100%;
+    height: 90%
+}
+
+body {
+    font: normal normal 12px/1 Arial, sans-serif, "Microsoft YaHei", "微软雅黑";
+    background-color: #ebeced;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 100%;
+    /*height: 88%;*/
+    margin: 6% 5% 4% 5%;
+    box-shadow: 0 1px 0px 0px rgba(208, 209, 213, 0.5), 0 0px 0px 1px rgba(220, 221, 224, 0.4);
+    -webkit-box-shadow: 0 1px 0px 0px rgba(208, 209, 213, 0.5), 0 0px 0px 1px rgba(220, 221, 224, 0.4);
+}
+
+.container > div {
+    -webkit-overflow-scrolling: touch
+}
+
+.row {
+    width: 100%
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden
+}
+
+.row .c3 {
+    float: left;
+    width: 33.33%
+}
+
+.row .c2 {
+    float: left;
+    width: 50%
+}
+
+.row .c4 {
+    float: left;
+    width: 25%
+}
+
+.header {
+    color: #FFFFFF;
+    background-color: #5BCAC4;
+    position: relative;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px
+}
+
+.header .logout {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 15px;
+    font-size: 16px;
+    color: #030303
+}
+
+.header .return {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 10px;
+    top: 5px;
+    z-index: 10;
+    /*background: url(http://oss1.lanlanlife.com/3c4676cca09f97f1f9476b90c77af07a_42x26.png) no-repeat;*/
+    /*background-size: 13px 21px;*/
+    /*background-position: center*/
+}
+
+.header .return img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .find {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+    top: 10px;
+    right: 10px;
+    background: url(http://oss1.lanlanlife.com/db344c90a1444d5e5348dd023b1a72f2_40x40.png) no-repeat;
+    background-size: .2rem .2rem;
+    background-position: center center
+}
+
+.header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #B2B2B2;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200%;
+    height: 200%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: left top;
+    transform-origin: left top
+}
+
+.search {
+    padding: 15px
+}
+
+.search form {
+    line-height: 10px;
+    border-radius: .04rem;
+    background-color: #F1F1F1
+}
+
+.search input {
+    width: 3.06rem;
+    height: .3rem;
+    border: 0;
+    font-size: .12rem;
+    text-indent: .2rem;
+    vertical-align: middle
+}
+
+.search button {
+    width: .2rem;
+    height: .2rem;
+    margin-left: .1rem;
+    background: url(http://oss1.lanlanlife.com/db344c90a1444d5e5348dd023b1a72f2_40x40.png) no-repeat;
+    background-size: .2rem .2rem;
+    background-position: center center;
+    border: 0;
+    vertical-align: middle
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFF;
+    border-top: 1px solid #E1E1E1
+}
+
+.nav ul:after {
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden
+}
+
+.nav li {
+    float: left;
+    font-size: 10px;
+    text-align: center
+}
+
+.nav a {
+    display: block;
+    color: #7D8690
+}
+
+.nav .c4 a > div, .nav .c3 a > div {
+    height: 15px
+}
+
+.home-icon {
+    width: 19px;
+    height: 21px
+}
+
+.agent-icon {
+    width: 21px;
+    height: 21px
+}
+
+.order-icon {
+    width: 19px;
+    height: 20px
+}
+
+.fee-icon {
+    width: 22px;
+    height: 23px
+}
+
+form {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+form label {
+    display: inline-block;
+    width: 75px;
+    color: #4787c5;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+
+form input {
+    padding-left: 10px;
+    height: 24px;
+    line-height: 24px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {font-size: 12px;font-weight: 400; color: #4A4E51; }
+
+form input.large:focus {
+    font-size: 18px;
+}
+
+form .input-box {
+    padding: 20px;
+    border-bottom: 1px solid #f2f2f2
+}
+
+.btn-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    font-size: 0;
+    border-top: 1px solid #E3E2E2;
+}
+
+.btn-bar button {
+    width: 50%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border: none;
+    color: #4A4E51;
+    font-size: 16px;
+    /*background-color: #F2F2F2;*/
+}
+
+.btn-bar button.red {
+    border: 1px solid rgba(71, 135, 197, 0.3);
+    color: #4787c5;
+}
+.tishi1{
+    display: none;
+    padding: 20px 0 0 15px;
+    color: red;
+}
+.tishi2{
+    display: none;
+    padding: 20px 0 0 15px;
+    color: red;
+}
+.tishi3{
+    width: 100%;
+    text-align:center;
+    display: none;
+    padding: 40px 0;
+    color: #4787c5;
+    font-size: 14px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.lovelytao.com/h5/fx/order -->
+<html style="font-size: 106.667px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>数字生活管家</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="grey">
+    <link rel="stylesheet" href="../css/h5_reset.min.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="../css/about.css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/about.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2d6c5bfc1294772b1ffe441d090de723";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+<body>
+<script type="text/javascript">
+    window.mobileUtil = (function (win, doc) {
+        var UA = navigator.userAgent,
+            isAndroid = /android|adr/gi.test(UA),
+            isIOS = /iphone|ipod|ipad/gi.test(UA) && !isAndroid,
+            isBlackBerry = /BlackBerry/i.test(UA),
+            isWindowPhone = /IEMobile/i.test(UA),
+            isMobile = isAndroid || isIOS || isBlackBerry || isWindowPhone;
+        return {
+            isAndroid: isAndroid,
+            isIOS: isIOS,
+            isMobile: isMobile,
+            isWeixin: /MicroMessenger/gi.test(UA)
+        };
+    })(window, document);
+
+    !(function (doc, win) {
+        var docEl = doc.documentElement, resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            fsize,
+            fn = function () {
+                var cWidth = !mobileUtil.isMobile ? 750 : docEl.clientWidth;
+                fsize = cWidth / 7.5;
+                cWidth && (docEl.style.fontSize = 2 * fsize + 'px');
+            };
+        fn();
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, fn, false);
+    })(document, window);
+</script>
+<div id="nav" class="nav">
+    <ul class="row">
+
+        <li class="c4">
+            <a href="#" id="navFirst">
+                <div>
+                    <img class="home-icon" src="../images/index.png" alt="">
+                </div>
+                <span>概况</span>
+            </a>
+        </li>
+
+        <li class="c4">
+            <a href="#" id="navSecond">
+                <div>
+                    <img class="agent-icon" src="../images/extension.png" alt="">
+                </div>
+                <span>推广</span>
+            </a>
+        </li>
+
+        <li class="c4">
+            <a href="#" id="navSree">
+                <div>
+                    <img class="order-icon" src="../images/income.png" alt="">
+                </div>
+                <span  >收入</span>
+            </a>
+        </li>
+
+        <li class="c4" id="navFour">
+            <a href="#">
+                <div>
+                    <img class="fee-icon" src="../images/about1.png" alt="">
+                </div>
+                <span  style="color:#4787c5 ">帮助</span>
+            </a>
+        </li>
+
+    </ul>
+</div>
+
+<div id="app" class="container">
+    <div style="width: 100%; height: 100%; overflow: auto;position: relative;">
+        <!--<div class="header"><span>关于我们</span></div>-->
+ <!--<div class="backImg">-->
+
+        <!--</div>-->
+        <div class="help">
+            <h3>操作步骤：</h3>
+            1.商品推广：<br>
+            (1)点击商品分类,进行商品选择<br>
+            (2)选择心仪商品,点击商品进入详情页(不要忘了给喜欢的商品点赞哦！)<br>
+            (3)点击【立即推广】弹出推广信息<br>
+            (4)【一键复制】粘贴分享商品信息或打开淘宝APP购买<br>
+            <div class="helpOne">
+                <img src="../images/getThing1.jpg" alt="">
+                <img src="../images/getThing2.jpg" alt="">
+            </div>
+            <div class="helpOne havTh!">
+                <img src="../images/getThing3.jpg" alt="">
+
+            </div>
+            2.收入及提现<br>
+            (1)概况页面：今天以及30天所有相关数据一览(收入以实际收入为准)<br>
+            (2)收入页面：账户余额及相关交易记录<br>
+            (3)点击【提现】账户余额<br>
+            (4)正确输入手机号,支付宝账号,微信号,点击【确定】(慎重填写信息,它们是您提现的唯一凭证！)
+            <div class="helpOne">
+                <img src="../images/inMoney1.jpg" alt="">
+                <img src="../images/inMoney2.jpg" alt="">
+            </div>
+            <div class="helpOne havTh">
+                <img src="../images/postMoney.jpg" alt="">
+
+            </div>
+            <h3 style="margin-top: 20px">联系方式：</h3>
+            如有任何问题直接在公众号内反馈,我们的工作人员会第一时间联系您
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    function jsCopy(){
+        var e=document.getElementById("contents");//象contents
+        e.select(); //选择象
+        document.execCommand("Copy"); //执行浏览器复制命令
+    }
+</script>
+<textarea id="contents" cols="40" rows="5"></textarea>
+<br />
+<input type="button" onClick="jsCopy();" value="复制" />
+</body>
+</html>
